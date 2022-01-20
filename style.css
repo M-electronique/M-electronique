@@ -132,6 +132,10 @@ footer .social-media p {
 	color: #357ab7 ;
 	font-weight: bold;
 }
+#imge{
+	position: relative;
+	left: -90px ;
+}
 .connex_form{
 		background: rgba(255, 255, 255, .3);
 		padding: 5px;
