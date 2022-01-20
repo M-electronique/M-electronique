@@ -111,6 +111,11 @@ footer .social-media p {
   width: 20px;
   cursor: pointer;
 }
+
+.phone{
+	text-decoration: none;
+	color: #80d0d0 ;
+}
 /* Fin du pied de la page */
 
 @media screen and (max-width: 650px) {
