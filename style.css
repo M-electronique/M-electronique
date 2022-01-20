@@ -86,6 +86,7 @@ nav .onglets input {
 #pied {
   text-decoration: none;
 }
+
 /* fin de la barre de navigation*/
 
 /* pied de page */
@@ -124,6 +125,12 @@ footer .social-media p {
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
+
+}
+.dede{
+	text-decoration: none;
+	color: #357ab7 ;
+	font-weight: bold;
 }
 .connex_form{
 		background: rgba(255, 255, 255, .3);
