@@ -4,6 +4,7 @@ body{
 	font-family: 'Mochiy Pop P One', sans-serif;
     margin: 0px;
     padding: 0px;
+    overflow-x: hidden;
 	}
     
 	/* barre de navigation */
@@ -22,10 +23,19 @@ body{
 	nav h1{
 		font-size: 20px;
 		color:  #87CEEB;
+		32
+
+
+
 	}
 	nav .onglets{
 		display: flex;
 		flex-wrap: wrap;
+
+
+
+
+
 	}
 	nav .onglets p{
 		font-size: 13px;
@@ -33,6 +43,9 @@ body{
 		cursor: pointer;
 		color:  #e5e1e6;
 		text-transform: uppercase;
+
+
+
 	}
 	.onglets :hover{ box-shadow: 0 0 60px -5px  #4ec3e0; }
 	nav .onglets input{
@@ -42,10 +55,21 @@ body{
 		border:none;
 		outline: none;
 		background-color: #f2f2f2;
+
+
+
 	}
 
 	#heart{
 		color: #ff4901;
+
+
+
+
+
+		
+
+
 	}  
 	#achats{
 		color: #940794;
@@ -76,6 +100,7 @@ body{
 }
 #deco{
     text-decoration: none;
+    color:#0F9DE8;
 
 }
 
@@ -94,35 +119,17 @@ body{
         font-family: "Quicksand","Helvetica Neue",Arial,sans-serif";
     }
 
-    #user{
-        display:flex;
-        flex-wrap: wrap;
-        margin-right: -15px;
-        margin-left: -2px;
+   
+
+
+    .Nok-position{
+    	position: relative;
+    	top: 50px; left: 180px;
+
     }
 
-    *,
-    *::before,*::after {
-        box-sizing: border-box;
-    }
-
-    ::-webkit-scrollbar {
-        width: 10px;
-        height: 10px;
-    }
-
-    ::-webkit-scrollbar-thumb{
-        background-color: #018cd1 ;
-        border-radius: 5px;
-        border: 1px solid #fff;
-    }
-
-    ::-webkit-scrollbar-track{
-        background-color: #e9ecef;
-    }
     /*Fin du corps du site */
-
-	/* pied de page */
+    /* pied de page */
 	footer{
 		margin-top: 100px;
 		background-color: #000;
@@ -148,4 +155,11 @@ body{
 		cursor: pointer;
 	}
 	/* Fin du pied de la page */
+
+	@media screen and (max-width: 650px) {
+		nav .onglets .link{
+			display:none;
+		}
+ 
+ 
 
